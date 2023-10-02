@@ -11,6 +11,14 @@
 		2114A02B2AC4024E00795CDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A02A2AC4024E00795CDD /* ContentView.swift */; };
 		2114A02D2AC4024F00795CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2114A02C2AC4024F00795CDD /* Assets.xcassets */; };
 		2114A0302AC4024F00795CDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2114A02F2AC4024F00795CDD /* Preview Assets.xcassets */; };
+		2174F7732AC5AA47002B5234 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174F7722AC5AA47002B5234 /* SplashView.swift */; };
+		21D3C56A2ACAAC16001970BE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3C5692ACAAC16001970BE /* NotificationManager.swift */; };
+		21D3C56C2ACAAC20001970BE /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C56B2ACAAC20001970BE /* music.wav */; };
+		21D3C56E2ACAACD3001970BE /* Duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C56D2ACAACD3001970BE /* Duck.mp3 */; };
+		21D3C5702ACAC594001970BE /* Mallard Duck Call - QuickSounds.com.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C56F2ACAC594001970BE /* Mallard Duck Call - QuickSounds.com.mp3 */; };
+		21D3C5722ACAC5A0001970BE /* nature-soundstropicaljunglebirds-108380.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C5712ACAC5A0001970BE /* nature-soundstropicaljunglebirds-108380.mp3 */; };
+		21D3C5742ACAC5A8001970BE /* 10MinuteDuck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C5732ACAC5A8001970BE /* 10MinuteDuck.mp3 */; };
+		21D3C5762ACAC645001970BE /* Duck01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D3C5752ACAC645001970BE /* Duck01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		2114A02A2AC4024E00795CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2114A02C2AC4024F00795CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2114A02F2AC4024F00795CDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2174F7722AC5AA47002B5234 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		21D3C5692ACAAC16001970BE /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		21D3C56B2ACAAC20001970BE /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		21D3C56D2ACAACD3001970BE /* Duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck.mp3; sourceTree = "<group>"; };
+		21D3C56F2ACAC594001970BE /* Mallard Duck Call - QuickSounds.com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mallard Duck Call - QuickSounds.com.mp3"; sourceTree = "<group>"; };
+		21D3C5712ACAC5A0001970BE /* nature-soundstropicaljunglebirds-108380.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nature-soundstropicaljunglebirds-108380.mp3"; sourceTree = "<group>"; };
+		21D3C5732ACAC5A8001970BE /* 10MinuteDuck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10MinuteDuck.mp3; sourceTree = "<group>"; };
+		21D3C5752ACAC645001970BE /* Duck01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				2114A0282AC4024E00795CDD /* iProgramMeApp.swift */,
+				2174F7722AC5AA47002B5234 /* SplashView.swift */,
 				2114A02A2AC4024E00795CDD /* ContentView.swift */,
+				21D3C5692ACAAC16001970BE /* NotificationManager.swift */,
+				21D3C56B2ACAAC20001970BE /* music.wav */,
+				21D3C56D2ACAACD3001970BE /* Duck.mp3 */,
+				21D3C56F2ACAC594001970BE /* Mallard Duck Call - QuickSounds.com.mp3 */,
+				21D3C5712ACAC5A0001970BE /* nature-soundstropicaljunglebirds-108380.mp3 */,
+				21D3C5732ACAC5A8001970BE /* 10MinuteDuck.mp3 */,
+				21D3C5752ACAC645001970BE /* Duck01.mp3 */,
 				2114A02C2AC4024F00795CDD /* Assets.xcassets */,
 				2114A02E2AC4024F00795CDD /* Preview Content */,
 			);
@@ -125,8 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D3C5762ACAC645001970BE /* Duck01.mp3 in Resources */,
+				21D3C56E2ACAACD3001970BE /* Duck.mp3 in Resources */,
+				21D3C5702ACAC594001970BE /* Mallard Duck Call - QuickSounds.com.mp3 in Resources */,
 				2114A0302AC4024F00795CDD /* Preview Assets.xcassets in Resources */,
 				2114A02D2AC4024F00795CDD /* Assets.xcassets in Resources */,
+				21D3C56C2ACAAC20001970BE /* music.wav in Resources */,
+				21D3C5722ACAC5A0001970BE /* nature-soundstropicaljunglebirds-108380.mp3 in Resources */,
+				21D3C5742ACAC5A8001970BE /* 10MinuteDuck.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +169,8 @@
 			files = (
 				2114A02B2AC4024E00795CDD /* ContentView.swift in Sources */,
 				2114A0292AC4024E00795CDD /* iProgramMeApp.swift in Sources */,
+				21D3C56A2ACAAC16001970BE /* NotificationManager.swift in Sources */,
+				2174F7732AC5AA47002B5234 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
