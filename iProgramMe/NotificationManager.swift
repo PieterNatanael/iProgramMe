@@ -13,7 +13,10 @@ class NotificationManager {
         let content = UNMutableNotificationContent()
         content.title = "iProgramMe"
         content.body = notification.text
-        content.sound = UNNotificationSound(named: UNNotificationSoundName("Duck"))
+        //content.sound = UNNotificationSound(named: UNNotificationSoundName("DuckDuck"))
+        content.sound = UNNotificationSound(named: UNNotificationSoundName("Chime"))
+
+
 
         let calendar = Calendar.current
         let dateComponents = calendar.dateComponents([.hour, .minute], from: notification.notificationTime)
