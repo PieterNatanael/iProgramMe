@@ -12,10 +12,8 @@ struct SplashView: View {
     @Binding var isShowingSplash: Bool
     
     var body: some View {
-        // Customize your splash screen view with your company image or logo.
-        // You can use an Image view here.
-        // Replace "YourImageName" with your actual image asset name.
-        Image("KarmAware")
+     
+        Image("SplashImage")
             .resizable()
            // .scaledToFill()
             .edgesIgnoringSafeArea(.all)

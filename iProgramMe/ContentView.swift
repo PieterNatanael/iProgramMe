@@ -18,7 +18,7 @@ struct ContentView: View {
     @State private var isShowingSplash = true
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             if isShowingSplash {
                 SplashView(isShowingSplash: $isShowingSplash)
             } else {
