@@ -5,9 +5,6 @@
 //  Created by Pieter Yoshua Natanael on 27/09/23.
 //
 
-
-
-
 import SwiftUI
 import UserNotifications
 
@@ -85,6 +82,7 @@ struct NotificationData: Identifiable, Codable {
 #Preview {
 ContentView()
 }
+
 
 
 
